@@ -282,6 +282,49 @@ files:
         }
     }
   learner_created: false
+- name: src/machine/Coffee_Type.java
+  visible: true
+  text: |
+    package machine;
+
+    public enum Coffee_Type {
+        ESPRESSO(250, 0, 16, 4),
+        LATTE(350, 75, 20, 7),
+        CAPPUCCINO(200, 100, 12, 6);
+
+        int WaterNeeded;
+        int MilkNeeded;
+        int BeansNeeded;
+        int CupPrice;
+
+        Coffee_Type(int waterNeeded, int milkNeeded, int beansNeeded, int cupPrice) {
+            WaterNeeded = waterNeeded;
+            MilkNeeded = milkNeeded;
+            BeansNeeded = beansNeeded;
+            CupPrice = cupPrice;
+        }
+
+        public int getWaterNeeded() {
+            return WaterNeeded;
+        }
+
+        public int getMilkNeeded() {
+            return MilkNeeded;
+        }
+
+        public int getBeansNeeded() {
+            return BeansNeeded;
+        }
+
+        public int getCupPrice() {
+            return CupPrice;
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/33/stages/179/implement
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/33/stages/179/implement">JetBrains
+    Academy</a>
+  time: Thu, 17 Dec 2020 14:09:42 UTC
+record: 5

@@ -1,2 +1,4 @@
+machine/Coffee_Type.java
+ machine.Coffee_Type
 machine/CoffeeMachine.java
  machine.CoffeeMachine

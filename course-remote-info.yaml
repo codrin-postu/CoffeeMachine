@@ -15,10 +15,10 @@ stages:
   is_completed: true
 - id: 178
   step: 5332
-  is_completed: false
+  is_completed: true
 - id: 179
   step: 5333
-  is_completed: false
+  is_completed: true
 - id: 180
   step: 5334
   is_completed: false
